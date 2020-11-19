@@ -43,6 +43,7 @@ body {
 .nav li a {
     color: #fff;
     text-decoration: none;
+    font-size: 1.5rem;
 }
 
 .nav li a:hover {
@@ -124,6 +125,7 @@ body {
     width: 100vw;
     height: 60vh;
     padding-right: 20px;
+
 }
 
 .text-link {
@@ -181,22 +183,25 @@ body {
     margin-left: 3rem;
     margin-top: 2rem;
     margin-bottom: 3rem;
+    box-shadow: 1px 1px 1px rgb(155, 148, 148);
+    background-size: cover;
 }
 
 /* CONFIGURAÇÕES DOS TEXTOS FINAIS*/
 
-.quem-sou, .serviços, .contato {
-    font-family: 'Satisfy', cursive;
+ .serviços, .contato {
+    font-family: Montserrat;
     margin-top: 1rem;
     text-align: center;
 }
 
-.quem-sou p, .serviços p, .contato p {
+.serviços p, .contato p {
     font-size: 2rem;
-    margin: 0.4rem;
+    margin: 1rem;
+    background-color: rgba(255, 255, 255, 0.904);
 }
 
-.quem-sou span, .contato span, .serviços span {
+.contato span, .serviços span {
     color: #daa520;
     font-weight: bolder;
     font-size: 3rem;
@@ -206,17 +211,33 @@ body {
     font-size: 3rem;
 }
 
-.contato .redes i.fa-facebook-f {
-    width: 3rem;
-    height: 3rem;
-    color: white;
-    background-color: rgb(6, 100, 138);
+.contato .redes i.fa-envelope {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 6rem;
+    height: 6rem;
+    color: black;
+}
+
+.redes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.redes a {
+    text-decoration: none;
 }
 
 .contato .redes i.fa-instagram {
-    width: 3.2rem;
-    height: 3.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 3.5rem;
+    height: 3.5rem;
     color: white;
-    background-color: rgb(212, 12, 45);
+    background-color: rgb(225, 48, 108);
+    border-radius: 15px;
 }
 
